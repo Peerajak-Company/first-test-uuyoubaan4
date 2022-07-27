@@ -1,12 +1,12 @@
 {
   "tests": [
     {
-      "name": "first test",
-      "setup": "",
-      "run": "cmd",
-      "input": "1+1=",
-      "output": "2",
-      "comparison": "exact",
+      "name": "test1",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest",
+      "input": "",
+      "output": "",
+      "comparison": "included",
       "timeout": 10,
       "points": 10
     }
